@@ -22,7 +22,7 @@ Enjoy the classic Snake Game directly in your browser with this **Snake Game Chr
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/snake-game-chrome-extension.git
+   git clone https://github.com/Marcusleeleelee/chrome-extension-snake.git
    ```
 2. Open Chrome and navigate to chrome://extensions.
 
