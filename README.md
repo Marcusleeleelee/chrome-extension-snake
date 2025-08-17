@@ -18,7 +18,7 @@ Enjoy the classic Snake Game directly in your browser with this **Snake Game Chr
 
 ## How to Install
 
-### From Source (For Developers):
+### From Source:
 
 1. Clone this repository:
    ```bash
