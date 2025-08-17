@@ -1,0 +1,69 @@
+/* General body styling */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Game container styling */
+#game-container {
+  background: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  display: inline-block; /* Prevent stretching */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Canvas styling */
+#gameCanvas {
+  border: 4px solid #333;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Score display styling */
+#score {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Fix vertical stretching */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+  #game-container {
+    padding: 10px;
+  }
+
+  #gameCanvas {
+    width: 300px;
+    height: 300px;
+  }
+
+  #score {
+    font-size: 1.2rem;
+  }
+}
